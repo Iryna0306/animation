@@ -1,0 +1,23 @@
+.box {
+    background-color: #b38888;
+    width: 500px;
+    height: 500px;
+    color: #916c9e;
+    border-radius: 50%;
+    margin-top: 10%;
+    border:10px solid #353a82; 
+    animation-name: circle-box;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes circle-box{
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 1000px;
+    }
+  }
